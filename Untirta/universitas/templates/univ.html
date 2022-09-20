@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+            <center>
+                <h1>UNIVERSITAS SULTAN AGENG TIRTAYASA</h1>
+            </center>
+            <h2>TENTANG</h2>
+
+            {{ title }}
+            <h2>MACAM MACAM FAKULTAS</h2>
+            {% for tentang in penjelasan %}
+            {{ penjelasan }}
+            {% endfor %}
+
+{% endblock %}
+

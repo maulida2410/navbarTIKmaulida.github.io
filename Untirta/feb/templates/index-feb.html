@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+            <h1>FAKULTAS EKONOMI DAN BISNIS</h1></center>
+    
+            
+            <h2>SEJARAH</h2></center>
+            {{ title }}
+           
+            <h2>PROGRAM STUDI</h2>
+            {% for tentang in penjelasan %}
+            {{ penjelasan }}
+            {% endfor %}
+
+{% endblock %}
